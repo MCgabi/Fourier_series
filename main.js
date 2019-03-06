@@ -5,19 +5,20 @@ function setup() {
   createCanvas(600, 400);
 }
 
-
 function draw() {
   background(0);
   translate(170, 200);
   
   let x = 0;
   let y = 0;
-  
+
   for (let i = 0; i < 4; i++){
     let prevx = x;
     let prevy = y;
+
     let n = i * 2 + 1;
     let radius = 70 * (4 / (n * PI));
+
     x += radius * cos(n * time);
     y += radius * sin(n * time);
   
@@ -40,7 +41,7 @@ function draw() {
   }
   endShape();
   
-  time += 0.01;
+  time += 0.01;  
   
   if(wave.length > 250){
     wave.pop();
