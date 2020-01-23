@@ -7,9 +7,9 @@ This is my visualisation of fourier series.
 ```bash
 $ git clone https://github.com/MCgabi/fourier_series.git
 ```
-Open folder and index.html file.
+Open index.html file.
 
-**Enjoy gameplay!**
+**Enjoy!**
 
 ## License
 [MIT license](https://opensource.org/licenses/MIT).
